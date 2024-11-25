@@ -30,6 +30,7 @@ yarn-error.log
 /**/npm-debug.log
 /packages/**/.npmignore
 /packages/**/LICENSE
+/packages/**/README.md
 *.tsbuildinfo
 
 # tests

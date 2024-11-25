@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "0.0.1",
+  "packages": [
+    "apps/*",
+    "packages/*"
+  ],
+  "command": {
+    "create":{
+      "homepage": "https://github.com/lotolab/tsai-platform#readme",
+      "license": "MIT",
+      "author":"lanbery <lanbery@gmail.com>",
+      "init-main":"dist/index.ts",
+      "access": "public",
+      "esModule":true, 
+      "yes": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "common",
+  "version": "0.0.1",
+  "description": "tsai common constants,enums,base class etc.",
+  "keywords": [
+    "tsai"
+  ],
+  "author": "lanbery <lanbery@gmail.com>",
+  "homepage": "https://github.com/lotolab/tsai-platform#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotolab/tsai-platform.git"
+  },
+  "scripts": {
+    "build":"tsc -b",
+    "clean":"rimraf dist",
+    "prepare": "pnpm clean",
+    "test": "node ./__tests__/common.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lotolab/tsai-platform/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "class-transformer": "^0.5.1",
+    "typeorm": "^0.3.20"
+  },
+  "peerDependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "reflect-metadata": "^0.1.12 || ^0.2.0",
+    "typeorm": "^0.3.20",
+    "typescript":"^5.7.2"
+  }
+}
